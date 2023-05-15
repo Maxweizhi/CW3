@@ -1,0 +1,26 @@
+TY  - JOUR
+T1  - Feasibility of Automated Deep Learning Design for Medical Image Classification by Healthcare Professionals with Limited Coding Experience
+JF  - bioRxiv
+DO  - 10.1101/650366
+SP  - 650366
+AU  - Livia Faes
+AU  - Siegfried K. Wagner
+AU  - Dun Jack Fu
+AU  - Xiaoxuan Liu
+AU  - Edward Korot
+AU  - Joseph R. Ledsam
+AU  - Trevor Back
+AU  - Reena Chopra
+AU  - Nikolas Pontikos
+AU  - Christoph Kern
+AU  - Gabriella Moraes
+AU  - Martin K. Schmid
+AU  - Dawn Sim
+AU  - Konstantinos Balaskas
+AU  - Lucas M. Bachmann
+AU  - Alastair K. Denniston
+AU  - Pearse A. Keane
+Y1  - 2019/01/01
+UR  - http://biorxiv.org/content/early/2019/05/27/650366.abstract
+N2  - Deep learning has huge potential to transform healthcare. However, significant expertise is required to train such models and this is a significant blocker for their translation into clinical practice. In this study, we therefore sought to evaluate the use of automated deep learning software to develop medical image diagnostic classifiers by healthcare professionals with limited coding – and no deep learning – expertise.We used five publicly available open-source datasets: (i) retinal fundus images (MESSIDOR); (ii) optical coherence tomography (OCT) images (Guangzhou Medical University/Shiley Eye Institute, Version 3); (iii) images of skin lesions (Human against Machine (HAM)10000) and (iv) both paediatric and adult chest X-ray (CXR) images (Guangzhou Medical University/Shiley Eye Institute, Version 3 and the National Institute of Health (NIH)14 dataset respectively) to separately feed into a neural architecture search framework that automatically developed a deep learning architecture to classify common diseases. Sensitivity (recall), specificity and positive predictive value (precision) were used to evaluate the diagnostic properties of the models. The discriminative performance was assessed using the area under the precision recall curve (AUPRC). In the case of the deep learning model developed on a subset of the HAM10000 dataset, we performed external validation using the Edinburgh Dermofit Library dataset.Diagnostic properties and discriminative performance from internal validations were high in the binary classification tasks (range: sensitivity of 73.3-97.0%, specificity of 67-100% and AUPRC of 0.87-1). In the multiple classification tasks, the diagnostic properties ranged from 38-100% for sensitivity and 67-100% for specificity. The discriminative performance in terms of AUPRC ranged from 0.57 to 1 in the five automated deep learning models. In an external validation using the Edinburgh Dermofit Library dataset, the automated deep learning model showed an AUPRC of 0.47, with a sensitivity of 49% and a positive predictive value of 52%. The quality of the open-access datasets used in this study (including the lack of information about patient flow and demographics) and the absence of measurement for precision, such as confidence intervals, constituted the major limitation of this study.All models, except for the automated deep learning model trained on the multi-label classification task of the NIH CXR14 dataset, showed comparable discriminative performance and diagnostic properties to state-of-the-art performing deep learning algorithms. The performance in the external validation study was low. The availability of automated deep learning may become a cornerstone for the democratization of sophisticated algorithmic modelling in healthcare as it allows the derivation of classification models without requiring a deep understanding of the mathematical, statistical and programming principles. Future studies should compare several application programming interfaces on thoroughly curated datasets.
+ER  - 
